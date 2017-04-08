@@ -1,0 +1,65 @@
+﻿    .gameContainer
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+        .gameContainer h1
+        {
+            font-size: 3rem;
+        }
+
+    td
+    {
+        border: 1px solid black;
+        height: 7rem;
+        width: 7rem;
+        text-align: center;
+        cursor: pointer;
+    }
+
+        td.x
+        {
+            font-size: 5rem;
+            color: #ed4e6e;
+        }
+
+        td.o
+        {
+            font-size: 5rem;
+            color: #485b6e;
+        }
+    .wichPlayer
+    {
+        display:flex;
+        align-items: center;
+    }
+    .breakline
+    {
+        font-size:3rem;
+        padding-bottom: 1rem;
+    }
+    .wichPlayer .o
+    {
+        font-size: 4rem;
+        color: #485b6e;
+        cursor: pointer;
+        height: 6rem;
+    }
+
+    .wichPlayer .x
+    {
+        font-size: 4rem;
+        color: #ed4e6e;
+        cursor: pointer;
+         height: 6rem;
+    }
+    .wichPlayer .o:hover
+    {
+         background: aliceblue;
+    }
+    .wichPlayer .x:hover
+    {
+         background: aliceblue;
+    }
